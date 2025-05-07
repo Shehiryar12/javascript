@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit Last </title>
+</head>
+<body style="background-color: greenyellow; color:black;">
+  <ul class="language">
+    <li>Javascript</li>               <!-- allitem[0]  ->  javascript  -->
+    <li>React</li>                    <!-- allitem[1]  ->  React--> 
+    <li>C++</li>                      <!-- allitem[2]  ->  C++ -->
+    <li>HTML</li>                     <!-- allitem[3]  ->  HTML-->
+  </ul>
+
+  <script>
+    //Sabhi <li> items ko select karo
+   const allItems = document.querySelectorAll('.language li');
+
+     //Last <li> item nikalo
+    const lastItem = allItems[allItems.length - 2];       //allitem.length=4
+    //Last item ka text update karo
+    lastItem.innerText = "ruby";
+    lastItem.remove();
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">  
+      <title>DOM Learning</title>
+      <style>
+         .bg-black{
+              background-color: black;
+              color: beige;
+         }
+      </style>
+ </head>
+ <body class="bg-black">
+    <div class="bg-block">
+     <h1 id="title"class="heading">Dom learning on chai aur code</h1>
+     <p>Lorem ipsum dolor, sit abus est voluptatem  grany wdiwn vic fnda</p>
+     <p>Lorem ipsum dolor, sit abus est voluptatem grany widawa thioa togfnda</p>
+     <p>Lorem ipsum dolor, sit abus est voluptatemgrany wo e bjytod fnda</p>
+
+     <ul>
+      <li class="list-item">one</li>
+      <li class="list-item">two</li>
+      <li class="list-item">three</li>
+      <li class="list-item">four</li>
+
+     </ul>
+      
+   </div>
+
+ </body>
+ </html>
+
+<!--Document object model: use in js to change,removed elements on webpages-
+
+DOM is used to dynamically change the style,content of web document using programming language like javascript.
+
+DOM html document ka structure,style,content dynamically change karne kai liye used hota hai.
+
+Html collection ek javascript object hai jo multiple object element ko represent karta hai-jaise array ki tarha, lekin exactly array nahi hota
+
+-->
+
+<!--document.getelementbyId() is js method used to select html element by its unique id atrribute so that you can change its style or attribute -->
+<!--document.getElementbyId.className is js method used to get class attribute of that element--> 
+<!--document.baseURI is js define the base URL of the current html document-->
+<!--document.getElementbyId().getAttribute() is js method used to retreive the value of an atrribute of html element-->
+<!--document.getElementbyid().setAttribute() is js method used to select html element and set or update one of its attribute-->
+<!-- .style.backgroundColor is used to set the background color of an html element --->
+<!-- .style.padding is used to set the space between between the content and border-->
+<!-- .borderRadius ek CSS property hai jo kisi HTML element ke corners ko gol (rounded) banane ke liye use hoti hai -->
+<!-- .innerhtml Html element kai andar likha hua content dikhata ya badalta hai-->
+<!-- document.querySelector() hamesha usi element ko select karta hai jo sabse pehle top par aata hai aur selector se match hota hai -->
+<!-- doument.querySelectorAll() is used in js to find all html elements that match as css selector--> 
+<!-- NodeList(3) [li,li,li] is not an array it is an node list that behave like an array but does not have all array power
+ 
+document.querySelectorAll(li)
+NodeList(3) [li,li,li]
+const templelist=document.querySelectorAll(li)
+templelist
+Nodelist(3) [li,li,li]
+templelist[0].style.color='green'
+-->
+<!--Array.from() js method jo array like iterable cheez ko real array mai badal deta hai-->
+

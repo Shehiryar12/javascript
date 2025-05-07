@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Chai aur code</title>
+ </head>
+ <body  style="background-color: darkslategrey; color: azure;">
+    
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday </div>
+    </div>
+
+<script>
+        const parent=document.querySelector('.parent')
+        //console.log(parent);
+        //console.log(parent.children);
+        //console.log(parent.children[1].innerHTML);  
+        
+       
+        //  for (let i = 0; i < parent.children.length; i++) {
+        //         console.log(parent.children[i].innerHTML);            
+        //   }
+        
+        parent.children[1].style.color="orange"       //parent ka second child (index 1- tuesday) ka text color orange kare ga.
+        console.log(parent.firstElementChild);        //parent ka first child (monday wala div) console mai print kare ga. 
+        console.log(parent.lastElementChild);        //parent ka last child (thursday wala div) console mai print kare ga.
+
+        const dayone=document.querySelector('.day')  //pehla element select kare ga jiska class 'day' yani (monday wala div)
+        console.log(dayone)                          //console mai print kare ga <div class='day'>monday</<>
+        console.log(dayone.parentElement)            //console mai print karega us ko jo dayone ka parent hai yaani <div class='parent'></div>
+
+</script>
+ </body>
+ </html>

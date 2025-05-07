@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit and Remove</title>
+</head>
+<body style="background-color: black;color: beige;">
+
+  <ul class="language">
+      <Li>Javascript</Li>
+  </ul>
+    
+ <script>
+
+    //function banaya gaya hai jiska name addLanuage hai
+    function addLanguage(langname){                                     
+        
+    //Naya li element create kare ga    
+        const li= document.createElement('li') 
+    
+    //li item kai andar text daaijo hamay function sai mila    
+        li.innerHTML=`${langname}`
+
+    //ul element jiska class language hai usko select kiya 
+    //aur us kay andar appendChild daal diya  
+        document.querySelector(`.language`).appendChild(li)
+    }
+    addLanguage("python") 
+ </script> 
+</body>
+</html>
+
+<!--first create list item.
+phir ul select karna hai.
+phir li ko append karna hai. --->
+
+<!-- appendChild() kisi Html element ko doosray html element kai andar jodh daita hai -->
+<!-- javascriptquerySelector() js method hai jo pehla matching element ko select karta hai-->
+<!-- document.querSelector() yaha html page mai element ko dhooond raha hai jiska classname language hai--> 

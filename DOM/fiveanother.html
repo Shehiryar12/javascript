@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two edit and remove</title>
+ </head>
+ <body>
+    
+   <ul class="language">
+         <li>javascript</li>
+   </ul>
+
+   <script>
+            function addLanguage(langName){
+        
+                const li=document.createElement('li');
+                li.innerHTML=`${langName}`
+                document.querySelector( `.language`).appendChild(li) 
+            }
+
+            addLanguage("python")
+            addLanguage("React Native")
+
+
+   </script>
+
+ </body>
+ </html>
+
+ 
+<!--This Html page:-
+    yaha document.querySelector, class name "language" walay element ko select kar raha hai.
+    yaha bas class language ho toh match ho jaye ga.
+-->
+
+ <!--appendChild() js method hai kisi element ko doosray element kai ssath add kare ga -->
+ <!--document.querySelector html page ka pehla match element select kare ga-->
+
+ <!--
+ li create karo 
+ us kai andar html dal do
+ phir us ko attach kardo
+ -->
+
+<!-- 
+document.createTextnode ye method js mai sirf text banata hai(bina kisi html tag kai) jise ap kisi html element ka andar 
+daal saktay hai-->

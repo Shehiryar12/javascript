@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: greenyellow;color:black;">
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+
+ <script>
+    function addlanguage(langName){
+           const li= document.createElement('li');
+           li.innerHTML=`${langName}`
+           document.querySelector(`.language`).appendChild(li)
+
+    }
+    addlanguage("Python")
+        
+    const allitems=document.querySelectorAll('.language li'); 
+    const lastitem=allitems[allitems.length -1];
+
+    //edit last item text
+    lastitem.innerText="python3"
+ </script>   
+</body>
+</html>

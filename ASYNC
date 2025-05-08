@@ -1,0 +1,28 @@
+ synchoronous:
+
+ task are execute once at a time,each task waits for the previous one to finish before its start.
+
+ For example:
+
+ you talk then other person talk
+ only one person talk at a time,the second one waits for the first one to finish
+
+
+ //code:-
+
+ //console.log("hello")
+//console.log("firend")
+//console.log("smile")
+
+//this is synchoronous code because it run in order
+
+----------------------------------------------------------------------------------------------------------
+
+Asynchorounus allow js to start a task,like fetching a data or settng a timer, it move to the next one without waiting for the task to finsih
+
+settimeout() is asynchoronous task
+
+agar javascript badd wali line pehlay execute kar daita hai ,aur koi task baad mai complete ho toh usay asynchornus kehtay hai
+
+----------------------------------------------------------------------------------------------------------
+setTimeout() function in js used to execute a function peice of code after a pecified daleay

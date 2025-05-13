@@ -20,15 +20,17 @@ const school=[
 
 
 
+
 const datatwo=school.filter(branch)
 function branch(array){
 
 
-    
+
     //console.log(arrays)
     return array.id===554
 }
 console.log(datatwo)
+console.log('Sheriyaer');
 
 
 

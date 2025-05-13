@@ -7,7 +7,7 @@ function taste(array){
     return array.length <5;
 }
 
-
+//jbjbjbjb
 
 
 console.log(fruits)

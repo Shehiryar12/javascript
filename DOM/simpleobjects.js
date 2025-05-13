@@ -20,7 +20,6 @@ console.log(player)
 console.log(player.team)
 */
 
-
 const teams=new Object();
 teams.name= "pakistan",
 teams.wins= 72,

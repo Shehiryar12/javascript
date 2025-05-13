@@ -26,7 +26,7 @@
     }
  ]
 
- const data=students.filter(check);
+//  const data=students.filter(check);  jbjbjb
 
 function check(arr){
     //console.log(name);

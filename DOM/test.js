@@ -31,7 +31,7 @@
     }
  ]
 
- //console.log(arrays)
+ //console.log(arrays)jnjjjnnjnj
 
 const data=arrays.filter(functionName);
 function functionName(arr){

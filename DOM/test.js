@@ -37,6 +37,10 @@ const data=arrays.filter(functionName);
 function functionName(arr){
     // return arrays.name
     // console.log(arr.name)
+
+
+
+    
     return arr.name != 'asad'
 }
 

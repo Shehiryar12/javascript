@@ -30,7 +30,7 @@ const tasks = [
 // Aapko filter() ka use karke sirf woh tasks chahiyein jo abhi tak complete nahi hue (i.e. completed: false).
 
 const notcomplete=tasks.filter(info);
-///lkdkc
+///,jncjncdjnvdjnvjnvjdnv
 
 function info(not){
     //  console.log(not.completed)

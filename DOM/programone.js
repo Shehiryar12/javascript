@@ -12,5 +12,5 @@ function taste(array){
 
 console.log(fruits)
 
-
+fdfgd
 

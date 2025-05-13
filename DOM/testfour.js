@@ -6,6 +6,8 @@ function array(values){
 
 console.log(values)
 
+
+
 //return values>10
 
 }

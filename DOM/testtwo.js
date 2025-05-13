@@ -31,6 +31,8 @@
 function check(arr){
     //console.log(name);
      return arr.name === 'ahmed'
+
+     
 }
 console.log(data)
 

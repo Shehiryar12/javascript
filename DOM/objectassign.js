@@ -11,3 +11,4 @@
 
 let create=Object.assign(data,info)
 console.log(create)
+

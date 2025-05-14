@@ -5,8 +5,6 @@ const student={
 }
 
 
-
-
-console.log(Object.entries(student))  //return an array of key value pairs.
-console.log(Object.keys(student))    //return  an arrays of object keys.
-console.log(Object.values(student))  //return an arrays of property value of the object. 
+console.log(Object.entries(student)[1])  //return an array of key value pairs.
+// console.log(Object.keys(student))    //return  an arrays of object keys.
+// console.log(Object.values(student))  //return an arrays of property value of the object. 
